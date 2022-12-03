@@ -7,7 +7,7 @@ async function getData() {
         3: "wed",
         4: "thu",
         5: "fri",
-        6: "sun",
+        6: "sat",
     };
     const charts = document.querySelector(".chart-container");
     const data = await (await fetch("data.json")).json();
